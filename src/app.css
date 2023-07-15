@@ -1,0 +1,88 @@
+.questions-project {
+  background-color: #cffafe;
+}
+.questions-project .container {
+  min-height: 100vh;
+  padding-top: 6rem;
+}
+.questions-project .container .questions-card {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.05),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+.questions-project .container .questions-card .title {
+  color: #334155;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+.questions-project .container .questions-card .single-question {
+  border-radius: 4px;
+  border: 2px solid #e2e8f0;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.05),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+  width: 40rem;
+  max-width: 100%;
+}
+.questions-project
+  .container
+  .questions-card
+  .single-question
+  .question-container
+  .question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.questions-project
+  .container
+  .questions-card
+  .single-question
+  .question-container
+  .question
+  h2 {
+  color: #334155;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
+}
+.questions-project
+  .container
+  .questions-card
+  .single-question
+  .question-container
+  .question
+  svg {
+  background-color: #334155;
+  color: #fff;
+  border-radius: 50%;
+  padding: 4px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.questions-project
+  .container
+  .questions-card
+  .single-question
+  .question-container
+  .answer {
+  text-align: left;
+  color: #334155;
+  font-family: Roboto;
+  font-size: 0.825rem;
+  line-height: 2rem;
+  letter-spacing: 1px;
+  margin-top: 1rem;
+}
